@@ -1,0 +1,319 @@
+<svg>
+	<use id="container" href="#panoramaview">
+		<use id="item1" href="#panoramaview-item">
+			<rect width="100%" height="100%" fill="black" />
+			<textarea x="5" y="5" width="100%"
+				font-family="System-Regular" fill="white" font-size="32">
+				HOME
+			</textarea>
+		</use>
+		<use id="item2" href="#panoramaview-item">
+						<rect width="100%" height="20" fill="purple" opacity = "1"/>
+						<rect width="100%" height="100%" fill="black" opacity="0" />
+			<use id="activityList" href="#tile-list">
+				<use href="#tile-list-header" class="tile-list-item">
+					<textarea x="5" y="15" width="100%"
+							  font-family="System-Regular" fill="white" font-size="32">
+						Activities
+					</textarea>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item" >
+					<text id="myClock" x="50%" y="$" fill="white" font-size="32" font-family="System-Regular" text-length="20"></text>	
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="walkBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Walk" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="runBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Run" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="hikeBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Hike" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="cycleBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Cycle" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="boxBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Box" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="swimBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Swim" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="yogaBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Yoga" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="sitBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Sit" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="otherBtn" href="#square-button" y="$" fill="fb-purple">
+						<set href="#text" attributeName="text-buffer" to="Other" />
+					</use>
+				</use>
+			</use>
+		</use>
+		<use id="item3" href="#panoramaview-item">
+						<rect width="100%" height="20" fill="green" opacity = "1"/>
+						<rect width="100%" height="100%" fill="black" opacity="0" />
+			<use id="fallTypesList" href="#tile-list">
+				<use href="#tile-list-header" class="tile-list-item">
+					<textarea x="5" y="15" width="100%"
+							  font-family="System-Regular" fill="white" font-size="32">
+						Record Fall
+					</textarea>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="fallBtn" href="#square-button" y="$" fill="fb-green">
+						<set href="#text" attributeName="text-buffer" to="Fall" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="nearFallBtn" href="#square-button" y="$" fill="fb-green">
+						<set href="#text" attributeName="text-buffer" to="Near Fall" />
+					</use>
+				</use>
+			</use>		
+		</use>
+		
+		<use id="item4" href="#panoramaview-item">
+						<rect width="100%" height="20" fill="orange" opacity = "1"/>
+						<rect width="100%" height="100%" fill="black" opacity="0" />
+			<use id="locationList" href="#tile-list">
+				<use href="#tile-list-header" class="tile-list-item">
+					<textarea x="5" y="15" width="100%"
+							  font-family="System-Regular" fill="white" font-size="32">
+						Location
+					</textarea>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="homeBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="Home" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="workBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="Work" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="churchBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="Church" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="storeBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="Store" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="gymBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="Gym" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="outsideBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="Outside" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="schoolBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="School" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="otherBtn" href="#square-button" y="$" fill="fb-orange">
+						<set href="#text" attributeName="text-buffer" to="Other" />
+					</use>
+				</use>
+			</use>
+		</use>
+		<use id="item5" href="#panoramaview-item">
+			<rect width="100%" height="20" fill="blue" opacity = "1"/>
+			<rect width="100%" height="100%" fill="black" opacity = "0"/>
+			<use id="emotionList" href="#tile-list">
+				<use href="#tile-list-header" class="tile-list-item">
+					<textarea x="5" y="15" width="100%"
+							  font-family="System-Regular" fill="white" font-size="32">
+						Emotions
+					</textarea>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="HappyBtn" href="#square-button" y="$" fill="fb-blue">
+						<set href="#text" attributeName="text-buffer" to="Happy" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="SadBtn" href="#square-button" y="$" fill="fb-blue">
+						<set href="#text" attributeName="text-buffer" to="Sad" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="StressedBtn" href="#square-button" y="$" fill="fb-blue">
+						<set href="#text" attributeName="text-buffer" to="Stressed" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="angryBtn" href="#square-button" y="$" fill="fb-blue">
+						<set href="#text" attributeName="text-buffer" to="Angry" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="anxiousBtn" href="#square-button" y="$" fill="fb-blue">
+						<set href="#text" attributeName="text-buffer" to="Anxious" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="upsetBtn" href="#square-button" y="$" fill="fb-blue">
+						<set href="#text" attributeName="text-buffer" to="Upset" />
+					</use>
+				</use>
+				<use href="#tile-list-item" class="tile-list-item">
+					<use id="otherBtn" href="#square-button" y="$" fill="fb-blue">
+						<set href="#text" attributeName="text-buffer" to="Other" />
+					</use>
+				</use>
+			</use>
+		</use>
+		<!-- Have enough pagination dots for your slides (extras are hidden) -->
+		<use id="pagination-dots" href="#pagination-widget" y="8">
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-highlight-dot" />
+		</use>
+	</use>
+	<!-- ********************************************************POPUPS***************************************************************** -->
+	<use id="fallType" href="#tile-list" display="none">
+		<rect class="full-size" fill="fb-black" />
+		<use href="#tile-list-header" class="tile-list-item">
+			<textarea x="5" y="5" width="100%"
+					  font-family="System-Regular" fill="white" font-size="32">
+				Record Fall
+			</textarea>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="fallBtn" href="#square-button" y="10%" fill="fb-red">
+				<set href="#text" attributeName="text-buffer" to="Fall" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="tripBtn" href="#square-button" y="$" fill="fb-red">
+				<set href="#text" attributeName="text-buffer" to="Trip" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="slipBtn" href="#square-button" y="$" fill="fb-red">
+				<set href="#text" attributeName="text-buffer" to="Slip" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="collapseBtn" href="#square-button" y="$" fill="fb-red">
+				<set href="#text" attributeName="text-buffer" to="Collapse" />
+			</use>
+		</use>
+	</use>
+	<use id="fallDescList" href="#tile-list" display="none">
+		<rect class="full-size" fill="fb-black" />
+		<use href="#tile-list-header" class="tile-list-item">
+			<textarea x="5" y="5" width="100%"
+					  font-family="System-Regular" fill="white" font-size="32">
+				How did you fall?
+			</textarea>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="foreBtn" href="#square-button" y="10%" fill="fb-blue">
+				<set href="#text" attributeName="text-buffer" to="Forwards" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="backBtn" href="#square-button" y="$" fill="fb-blue">
+				<set href="#text" attributeName="text-buffer" to="Backwards" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="leftBtn" href="#square-button" y="$" fill="fb-blue">
+				<set href="#text" attributeName="text-buffer" to="Leftwards" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="rightBtn" href="#square-button" y="$" fill="fb-blue">
+				<set href="#text" attributeName="text-buffer" to="Rightwards" />
+			</use>
+		</use>
+	</use>
+	<use id="fallConfirm" href="#tile-list" display="none">
+		<rect class="full-size" fill="fb-black" />
+		<use href="#tile-list-header" class="tile-list-item">
+			<textarea x="5" y="5" width="100%"
+					  font-family="System-Regular" fill="white" font-size="32">
+				Are you sure you want to record fall?
+			</textarea>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="yesBtn" href="#square-button" y="10%" fill="fb-green">
+				<set href="#text" attributeName="text-buffer" to="Yes" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="noBtn" href="#square-button" y="$" fill="fb-red">
+				<set href="#text" attributeName="text-buffer" to="No" />
+			</use>
+		</use>
+	</use>
+	<use id="activityBeginConfirm_popup" href="#tile-list" display="none">
+		<rect class="full-size" fill="fb-black" />
+		<use href="#tile-list-header" class="tile-list-item">
+			<textarea x="5" y="5" width="100%"
+					  font-family="System-Regular" fill="white" font-size="32">
+				Are you sure you want BEGIN activity?
+			</textarea>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="yesBtn" href="#square-button" y="10%" fill="fb-green">
+				<set href="#text" attributeName="text-buffer" to="Yes" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="noBtn" href="#square-button" y="$" fill="fb-red">
+				<set href="#text" attributeName="text-buffer" to="No" />
+			</use>
+		</use>
+	</use>
+	<use id="activityEndConfirm_popup" href="#tile-list" display="none">
+		<rect class="full-size" fill="fb-black" />
+		<use href="#tile-list-header" class="tile-list-item">
+			<textarea x="5" y="5" width="100%"
+					  font-family="System-Regular" fill="white" font-size="32">
+				Are you sure you want END activity?
+			</textarea>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="yesBtn" href="#square-button" y="10%" fill="fb-green">
+				<set href="#text" attributeName="text-buffer" to="Yes" />
+			</use>
+		</use>
+		<use href="#tile-list-item" class="tile-list-item">
+			<use id="noBtn" href="#square-button" y="$" fill="fb-red">
+				<set href="#text" attributeName="text-buffer" to="No" />
+			</use>
+		</use>
+	</use>
+</svg>
+
